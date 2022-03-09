@@ -47,7 +47,7 @@ app.layout = html.Div(
             min=0,
             max=10000,
             step=1000,
-            marks={0: "0", 100: "100"},
+            marks={0: "0", 2500: "2500", 5000: "5000", 7500: "7500", 10000: "10000"},
             value=[min_payload, max_payload],
         ),
         # TASK 4: Add a scatter chart to show the correlation between payload and launch success
